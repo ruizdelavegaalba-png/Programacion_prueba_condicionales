@@ -138,9 +138,9 @@ public class Main {
             int numeroentero = input.nextInt();
             if (numeroentero % 3 == 0) {
                 System.out.println(numeroentero + "es multiplo de 3");
-            } else if (numeroentero % 5 == 0) {
+            } if (numeroentero % 5 == 0) {
                 System.out.println(numeroentero + "es multiplo de 5");
-            } else if (numeroentero % 7 == 0) {
+            }  if (numeroentero % 7 == 0) {
                 System.out.println(numeroentero + "es multiplo de 7");
             }
             //Pedir una temperatura en ºC e imprimir si hace frío (< 10), si es templada (>= 10, < 30) o si hace calor (>= 30)
